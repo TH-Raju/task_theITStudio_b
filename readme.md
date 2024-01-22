@@ -2,7 +2,9 @@
 
 ### start server
 
+```
 git clone
+```
 
 ```
 npm i
@@ -27,3 +29,13 @@ npm start
 - /api/v1/task/create (POST)
 - /api/v1/task/:id (DELETE)
 - /api/v1/task/update/:id (PATCH)
+
+# Technology used :
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- dotenv
+- nodemon
+- Vercel
