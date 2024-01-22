@@ -1,6 +1,9 @@
 export function sendEmail(booking) {
   const { email, name, Phone, hobbies } = booking;
 
+  // set api_key and domain from sendGrid on .env file
+  // visit https://sendgrid.com/
+
   const auth = {
     auth: {
       api_key: process.env.EMAIL_SEND_KEY,

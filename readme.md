@@ -1,4 +1,4 @@
-# Task Management Backend
+# [The_IT_Studio Backend Task](https://task-theitstudio-backend-ozb62nwnw-th-raju.vercel.app)
 
 ### start server
 
@@ -13,17 +13,16 @@ npm i
 ```
 npm start
 ```
+
 - Local Server
-    - http://localhost:5000
+  - http://localhost:5000
+- Hosting on Vercel
+  - https://task-theitstudio-backend-ozb62nwnw-th-raju.vercel.app
 
 ## API Routes
 
-### User Routes
-- /api/v1/signup (POST)
-- /api/v1/login (POST)
-- /api/v1/user (GET)
-
 ### Task routes
+
 - /api/v1/task (GET)
 - /api/v1/task/create (POST)
 - /api/v1/task/:id (DELETE)
